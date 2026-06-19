@@ -1,0 +1,8 @@
+[service]
+  name = "api-server"
+
+[service.build]
+  command = "pnpm install && pnpm --filter @workspace/api-server run build"
+
+[service.run]
+  command = "pnpm --filter @workspace/api-server run start"
