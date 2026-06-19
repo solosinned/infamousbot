@@ -1,0 +1,9 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# pnpm store and build artifacts
+.pnpm-store/
+
+# OS files
+.DS_Store

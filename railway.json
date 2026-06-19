@@ -1,0 +1,4 @@
+{
+  "build": "pnpm install && pnpm --filter @workspace/api-server run build",
+  "start": "pnpm --filter @workspace/api-server run start"
+}
