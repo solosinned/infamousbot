@@ -1,8 +1,0 @@
-{
-  "build": {
-    "command": "pnpm install && pnpm --filter @workspace/api-server run build"
-  },
-  "start": {
-    "command": "pnpm --filter @workspace/api-server run start"
-  }
-}
